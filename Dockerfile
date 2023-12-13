@@ -1,6 +1,6 @@
 FROM debian:12-slim
 
-ARG DEPS="iputils-ping netcat"
+ARG DEPS="iputils-ping"
 
 SHELL ["/bin/bash", "-c"]
 
